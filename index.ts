@@ -1,1 +1,2 @@
-import './decorator/main';
+// import './decorator/main';
+import './factory/main';
