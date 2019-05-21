@@ -1,0 +1,5 @@
+- Đóng gói yêu cầu và thông tin người thực hiện yêu cầu thành một object do vậy:
++ Người gọi và người thực thi action có thể tách rời
++ Người gọi không hề biết action cụ thể làm gì
++ Có thể nhóm các yêu cầu lại thành một thứ tự các yêu cầu
++ Có thể undo action: phục vụ cho việc thực thi nhiều câu lệnh, nếu đang thực thi hỏng ta có thể undo lại từ đầu
